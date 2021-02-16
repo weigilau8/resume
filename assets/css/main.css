@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -161,12 +155,12 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 		color: inherit;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+			color:#5EB9F9;
 		}
 
 	strong, b {
@@ -307,7 +301,7 @@ input, select, textarea {
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #5EB9F9;
 	}
 
 	strong, b {
@@ -3344,7 +3338,7 @@ input, select, textarea {
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #5EB9F9;
 		}
 
 		#main strong, #main b {
@@ -3783,3 +3777,29 @@ input, select, textarea {
 			}
 
 		}
+
+		.tooltip {
+			position: relative;
+			display: inline-block;
+		  }
+		  
+		  .tooltip .tooltiptext {
+			visibility: hidden;
+			width: 120px;
+			background-color: black;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px 0;
+			
+			/* Position the tooltip */
+			position: absolute;
+			z-index: 1;
+			top: 100%;
+			left: 50%;
+			margin-left: -60px;
+		  }
+		  
+		  .tooltip:hover .tooltiptext {
+			visibility: visible;
+		  }
