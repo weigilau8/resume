@@ -163,6 +163,12 @@ input, select, textarea {
 			color:#5EB9F9;
 		}
 
+	.nam h2 span{
+		font-size: 18px;
+    		display: block;
+		color: #2B547E;
+	}
+
 	strong, b {
 		font-weight: 400;
 	}
